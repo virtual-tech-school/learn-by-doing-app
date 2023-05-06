@@ -1,10 +1,16 @@
 ## Issue Details
 <!-- Mention the issue-number, you are raising this PR for.
-Also mention if this pull request is a potential fix, or a suggestion on the issue. 
+Also mention if this pull request is 
+a potential fix, or 
+a suggestion on the issue. 
 
-for eg:  issue number - #35 -->
+for eg:  closes - #35  or
+         fixes - #35 
+=> means this PR is a potential fix and will solve the issue #35.
 
-- issue number
+-->
+
+   
 
 ### Summary of the changes proposed
 
