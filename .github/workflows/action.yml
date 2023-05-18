@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 'Greet the contributor'
-        #uses: hindu-muppala/learn-by-doing-app@v.0
+        uses: actions/checkout@v2
         with:
           token: ${{ secrets.git_token }}
           issue-message: 'Hello there, thanks for opening your first issue. We welcome you to the community!'
