@@ -1,0 +1,24 @@
+name: Greet First-Time Contributor
+
+on:
+  pull_request:
+    types:
+      - opened
+
+jobs:
+  greet_contributor:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Check if first-time contributor
+        id: check_contributor
+        uses: actions/first-interaction@v1
+        
+      - name: Greet first-time contributor
+        if: steps.check_contributor.outputs.first_interaction
+        run: |
+          echo "Greetings, esteemed first-time contributor!"
+          echo "We are thrilled to have you join our community."
+          echo "Your contributions are highly valued and appreciated."
+          echo "If you have any questions or need assistance, feel free to ask."
+          echo "We look forward to seeing your amazing work!"
