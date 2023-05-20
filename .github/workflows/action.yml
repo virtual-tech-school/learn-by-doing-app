@@ -10,7 +10,7 @@ jobs:
   welcome-new-contributor:
     runs-on: ubuntu-latest
     steps:
-      - name: 'Greet the contributor'
+      - name: 'Greet the contributors'
         uses: virtual-tech-school/learn-by-doing-app@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
