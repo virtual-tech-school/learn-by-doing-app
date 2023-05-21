@@ -13,5 +13,4 @@ jobs:
       env: 
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with: 
-        content: "<Add your custom content here>"
-       #default content is "Thank you for taking your time and effort for your contribution, we truly value it. :tada:" 
+        content: "Thank you for taking your time and effort for your contribution, we truly value it"
